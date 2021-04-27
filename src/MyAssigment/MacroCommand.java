@@ -19,7 +19,7 @@ public class MacroCommand implements Command {
         for (int i = receivers.length  ; i > 0 ; i--){
             // because the first item of array starts with 0 I need to subtract 1 from i
             int j = i - 1;
-           receivers[j].undo(receivers[j].toString());
+            receivers[j].undo(receivers[j].toString());
         }
     }
 }

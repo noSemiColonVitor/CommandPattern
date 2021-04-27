@@ -8,6 +8,7 @@ public class Main {
         receiver[1] = new Receiver();
         receiver[2] = new Receiver();
         receiver[3] = new Receiver();
+
         MacroCommand lightOn = new MacroCommand(receiver);
         remote.setCommand(lightOn);
 
