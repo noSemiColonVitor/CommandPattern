@@ -9,10 +9,11 @@ public class Main {
         receiver[2] = new Receiver();
         receiver[3] = new Receiver();
 
+	// Instantiate the MacroCommand passing receiver array as a argument
         MacroCommand lightOn = new MacroCommand(receiver);
         remote.setCommand(lightOn);
 
-        //execute command
+        //execute command 
         remote.execute();
 
         //undo command
