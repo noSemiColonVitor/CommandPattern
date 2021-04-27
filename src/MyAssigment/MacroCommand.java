@@ -25,6 +25,6 @@ public class MacroCommand implements Command {
 }
 
 /*
-Source code: https://github.com/noSemiColonVitor/Week-3---Assignment-1
+Source code: https://github.com/noSemiColonVitor/assignments
  */
 
