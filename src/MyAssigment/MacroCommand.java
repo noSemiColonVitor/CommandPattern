@@ -10,7 +10,6 @@ public class MacroCommand implements Command {
     @Override
     public void execute() {
         for (int i = 0; i < receivers.length; i++){
-            System.out.println(i);
             receivers[i].execute(receivers[i].toString());
         }
     }
